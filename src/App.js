@@ -1,22 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import imagePerfil from './images/thaysEline_perfil.jpg';
+import SocialMidiaIcons from './components/SocialMidiaIcons';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={imagePerfil} className="App-logo" alt="Thays Eline" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Personal <b>Thays Eline</b>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <SocialMidiaIcons />
       </header>
     </div>
   );
