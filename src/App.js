@@ -10,6 +10,7 @@ function App() {
         <p>
           Personal <b>Thays Eline</b>
         </p>
+        <a href='./assets/Cv-Thays-Eline.pdf' download>Download Currículo</a>
         <SocialMidiaIcons />
       </header>
     </div>
