@@ -1,0 +1,13 @@
+
+@media screen and (max-width: 767px) {
+  .Svg-icon {
+    width: 50px;
+    margin: 0px 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Svg-icon {
+    width: 100px;
+    margin: 0px 10px;
+  }
+}

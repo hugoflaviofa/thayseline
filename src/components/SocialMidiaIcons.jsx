@@ -1,4 +1,5 @@
 import React from 'react';
+import './SocialMidiaIcons.css';
 import iconInstagram from '../images/icons/instagram_icon.svg';
 import iconFacebook from '../images/icons/facebook_icon.svg';
 import iconTwitter from '../images/icons/twitter_icon.svg';
