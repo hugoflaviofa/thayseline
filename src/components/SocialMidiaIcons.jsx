@@ -29,7 +29,7 @@ export default function SocialMidiaIcons() {
           alt='Facebook'
         />
       </a>
-      <a
+      {/* <a
         href="https://twitter.com/thays_eline"
         target="blank"
       >
@@ -38,7 +38,7 @@ export default function SocialMidiaIcons() {
           src={iconTwitter}
           alt='Twitter'
         />
-      </a>
+      </a> */}
       <a
         href="https://www.linkedin.com/in/thayseline/"
         target="blank"
