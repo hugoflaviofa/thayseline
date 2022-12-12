@@ -13,7 +13,7 @@ function App() {
           Personal <b>Thays Eline</b>
         </p>
         <p className='mx-5'>
-        Profissional de Educação Física, especializada em aulas coletivas e exercícios físicos na gravides e pós-parto.
+        Profissional de Educação Física, especializada em aulas coletivas e exercícios físicos na gravidez e pós-parto.
         </p>
         <p className='mt-4'>CREF: 169177G/SP</p>
         <ButtonDownloadCv />

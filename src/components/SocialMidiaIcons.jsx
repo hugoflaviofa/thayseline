@@ -2,7 +2,7 @@ import React from 'react';
 import './SocialMidiaIcons.css';
 import iconInstagram from '../images/icons/instagram_icon.svg';
 import iconFacebook from '../images/icons/facebook_icon.svg';
-import iconTwitter from '../images/icons/twitter_icon.svg';
+// import iconTwitter from '../images/icons/twitter_icon.svg';
 import iconLinkedin from '../images/icons/linkedin_icon.svg';
 import iconTiktok from '../images/icons/tiktok_icon.svg';
 
