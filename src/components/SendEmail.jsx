@@ -27,16 +27,16 @@ export default function SendEmail() {
 
     emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, templateParams, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
-          console.log(result.text);
+          if(result.text === 'OK') alert('Email enviado com sucesso!');
       }, (error) => {
-          console.log(error.text);
+          if(error) alert('Parece que algo deu errado. Por favor, tente novamente', `Erro: ${error.text}`);
       });
   };
 
   return (
     <div className={div}>
       <form className={forms} onSubmit={sendEmail}>
-        <p className={p}>Envie um Email</p>
+        <p className={p}>Me envie um Email</p>
         <div className="mb-4">
           <label className={label} htmlFor="username">
             Nome:
