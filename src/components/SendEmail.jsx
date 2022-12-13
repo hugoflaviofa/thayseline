@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const div = 'mt-8 w-full max-w-xs text-left';
@@ -15,6 +15,13 @@ export default function SendEmail() {
   const [email, setEmail] = useState();
   const [message, setMessage] = useState();
 
+  const validateEmail = (email) => {
+    const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return String(email)
+      .toLowerCase()
+      .match(regex);
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -24,6 +31,10 @@ export default function SendEmail() {
       email,
       message,
     };
+
+    const isValid = validateEmail(email);
+
+    if (!isValid) return alert('Por favor, digite um email válido.')
 
     emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, templateParams, process.env.REACT_APP_PUBLIC_KEY)
       .then((result) => {
@@ -41,19 +52,19 @@ export default function SendEmail() {
           <label className={label} htmlFor="username">
             Nome:
           </label>
-          <input className={input} id="username" type="text" placeholder="Seu Nome" onChange={({ target: { value } }) => setName(value)} />
+          <input className={input} id="username" type="text" placeholder="Seu Nome" required onChange={({ target: { value } }) => setName(value)} />
         </div>
         <div className="mb-4">
           <label className={label} htmlFor="email">
             Email:
           </label>
-          <input className={input} type="email" id="email" placeholder="Seu Email" onChange={({ target: { value } }) => setEmail(value)} />
+          <input className={input} type="email" id="email" placeholder="Seu Email" required onChange={({ target: { value } }) => setEmail(value)} />
         </div>
         <div className="mb-4">
           <label className={label} id="textarea">
             Menssagem:
           </label>
-          <textarea className={textarea} htmlFor="textarea" placeholder="Sua Menssagem" onChange={({ target: { value } }) => setMessage(value)} />
+          <textarea className={textarea} htmlFor="textarea" placeholder="Sua Menssagem" required onChange={({ target: { value } }) => setMessage(value)} />
         </div>
         <div className="flex justify-center">
           <input className={submit} type="submit" value="Enviar" />
