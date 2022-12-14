@@ -70,12 +70,12 @@ export default function SendEmail() {
 
         <div className="mb-4">
           <label className={label} id="textarea">
-            Menssagem:
+            Mensagem:
           </label>
           <textarea
             className={textarea}
             htmlFor="textarea"
-            placeholder="Sua Menssagem"
+            placeholder="Sua Mensagem"
             required
             value={formsMessage}
             onChange={({ target: { value } }) => setFormsMessage(value)} />
