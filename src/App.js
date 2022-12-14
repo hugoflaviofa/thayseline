@@ -2,6 +2,7 @@ import './App.css';
 import imagePerfil from './images/thaysEline_perfil.jpg';
 import SocialMidiaIcons from './components/SocialMidiaIcons';
 import ButtonDownloadCv from './components/ButtonDownloadCv';
+import Forms from './components/Forms';
 // import Contacts from './components/Contacts';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <ButtonDownloadCv />
         {/* <Contacts /> */}
         <SocialMidiaIcons />
+        <Forms />
       </header>
     </div>
   );
