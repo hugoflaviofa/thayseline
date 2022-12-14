@@ -8,7 +8,7 @@ import iconTiktok from '../images/icons/tiktok_icon.svg';
 
 export default function SocialMidiaIcons() {
   return (
-    <div className='flex'>
+    <div className='flex animate-fade-in-down'>
       <a
         href="https://www.instagram.com/thays_eline/"
         target="blank"
