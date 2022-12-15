@@ -3,7 +3,7 @@ import imagePerfil from './images/thaysEline_perfil.jpg';
 import SocialMidiaIcons from './components/SocialMidiaIcons';
 import ButtonDownloadCv from './components/ButtonDownloadCv';
 import Forms from './components/Forms';
-// import WhatsappButton from './components/WhatsappButton';
+import WhatsappButton from './components/WhatsappButton';
 // import Contacts from './components/Contacts';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         {/* <Contacts /> */}
         <SocialMidiaIcons />
         <Forms />
-        {/* <WhatsappButton /> */}
+        <WhatsappButton />
       </header>
     </div>
   );
