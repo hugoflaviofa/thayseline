@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import sendEmail from '../service/emailJs';
 
 // Tailwind CSS
-const div = 'mt-8 w-10/12 md:w-6/12 text-left mb-5';
+const div = 'mt-8 w-10/12 md:w-6/12 text-left mb-5 animate-fade-in-down';
 const p = 'block text-gray-50 text-center text-xl md:text-4xl font-bold mb-2';
 const forms = 'bg-slate-700 shadow-md rounded px-8 pt-6 pb-8 mb-4';
 const label = 'block text-gray-50 text-sm md:text-3xl font-bold mb-2';
