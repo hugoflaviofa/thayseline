@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="285.6265mm"
+   height="227.04378mm"
+   viewBox="0 0 285.6265 227.04378"
+   version="1.1"
+   id="svg564"
+   sodipodiDocname="logo.svg"
+   xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnsSvg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs561" />
+  <g
+     inkscapeLabel="Camada 1"
+     inkscapeGroupmode="layer"
+     id="layer1"
+     transform="translate(17.261755,-51.775183)">
+    <g
+       id="g7240-4"
+       style="fill:#000000;stroke:none"
+       transform="matrix(0.04447674,0,0,0.04021568,-430.53087,-336.56424)"
+       inkscapeExport-filename="logo.svg"
+       inkscapeExport-xdpi="6.74158"
+       inkscapeExport-ydpi="6.74158">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 9291.8032,9668.18 6421.9298,-11.7618 -294.044,588.0888 h -2822.827 l -1529.031,2587.591 -376.376,-658.66 1140.892,-1905.407 h -1529.031 l -364.6151,635.136 z"
+         id="path947-4" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 11256.02,13184.951 1576.078,-2599.352 2375.879,-23.524 -729.231,1246.748 c -352.853,-670.421 0,0 -352.853,-670.421 l -905.657,11.762 -541.041,905.657 1646.648,-11.762 -329.329,635.136 -1658.411,11.761 -317.568,541.042 470.471,799.801 611.613,-1082.083 h 705.706 l -1317.319,2352.355 z"
+         id="path949-4"
+         sodipodiNodetypes="cccccccccccccccc" />
+    </g>
+  </g>
+</svg>
