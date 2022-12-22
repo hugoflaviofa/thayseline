@@ -9,7 +9,7 @@ export default function PopUpWhatsapp(props) {
 
   return (
     <div
-      className={`fixed bottom-1/3 bg-gray-600 p-8 rounded-lg flex flex-col gap-y-2 shadow-2xl opacity-${props.hidden} transition-all duration-500`}
+      className={`fixed bottom-1/3 bg-gray-600 p-8 rounded-lg flex flex-col gap-y-2 shadow-2xl opacity-${props.hidden} duration-500`}
     >
       <button
         type="button"
