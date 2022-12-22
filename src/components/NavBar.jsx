@@ -4,10 +4,12 @@ import trackAndFild from '../images/icons/T&F.svg'
 
 export default function NavBar() {
   return (
-    <div className='bg-slate-700 w-full h-14 flex justify-between'>
+    <div className='bg-slate-700 w-full h-14 flex justify-between items-center'>
       <img className='w-12 ml-2' src={logo} alt='Logo Thays' />
-      <img className='w-36' src={trackAndFild} alt='Logo T&F' />
-      <div class="space-y-3 mr-2 flex flex-col justify-center">
+      <a className='flex items-center justify-center rounded-2xl h-3/5 w-3/6 md:w-2/12 hover:bg-sky-900 transform duration-500' href='#t-and-f'>
+        <img className='w-36' src={trackAndFild} alt='Logo T&F' />
+      </a>
+      <div class="space-y-2 mr-2 flex flex-col justify-center">
         <div class="w-12 h-1.5 bg-black rounded-lg"></div>
         <div class="w-12 h-1.5 bg-black rounded-lg"></div>
         <div class="w-12 h-1.5 bg-black rounded-lg"></div>

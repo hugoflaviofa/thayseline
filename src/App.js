@@ -5,6 +5,7 @@ import ButtonDownloadCv from './components/ButtonDownloadCv';
 import Forms from './components/Forms';
 import WhatsappButton from './components/WhatsappButton';
 import NavBar from './components/NavBar';
+import TrackFiedl from './components/TrackFiedl';
 // import PopUpWhatsapp from './components/PopUpWhatsapp';
 // import Contacts from './components/Contacts';
 
@@ -27,6 +28,7 @@ function App() {
         <Forms />
         <WhatsappButton />
         {/* <PopUpWhatsapp /> */}
+        <TrackFiedl />
       </header>
     </div>
   );

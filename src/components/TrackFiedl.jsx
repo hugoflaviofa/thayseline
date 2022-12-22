@@ -1,0 +1,29 @@
+import React from 'react'
+import trackFiedl from '../images/SouUmTrainner_Thays_Silva.png'
+
+export default function TrackFiedl() {
+
+  const teste = (e) => {
+    // console.log(e.target.className);
+    let teste = document.querySelector('#teste').className
+    console.log(teste);
+    const teste2 = `${teste} border-4`
+    console.log(teste2);
+    // document.querySelector('#teste').className = teste2
+  }
+  
+  return (
+    <div id='t-and-f' className='mb-10 flex flex-col items-center gap-6'>
+      <img id='teste' className='w-5/6 md:w-3/6 rounded-xl' src={trackFiedl} alt="Foto Tracke & Field" />
+      <button onMouseOver={teste}>
+        <a
+          className='bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline'
+          href='https://compre.vc/v2/355efd4b351'
+          target='blank'
+        >
+          Compre pelo meu link
+        </a>
+      </button>
+    </div>
+  )
+}
