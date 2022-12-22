@@ -34,7 +34,7 @@ export default function PopUpWhatsapp(props) {
       <a href={
         name
         ? `https://wa.me/5511996887972?text=Olá,%20me%20chamo%20${name}.%20Gostaria%20de%20saber%20mais%20sobre%20treino%20personalizado.`
-        : `https://wa.me/5511996887972?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20treino%20personalizado.`
+        : 'https://wa.me/5511996887972?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20treino%20personalizado.'
       } target='blank'>
         <div className='flex w-44 md:w-64 bg-green-500 m-auto rounded-lg mt-6 shadow-2xl'>
           <img className='w-14' alt="Chat para o WhatsApp!" src={whatsappButton} />
