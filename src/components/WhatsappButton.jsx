@@ -19,7 +19,7 @@ export default function WhatsappButton() {
       {/* <a href='https://wa.me/5511996887972?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20treino%20personalizado.' target='blank'>
         <img src={whatsappButton} alt='Botão de contato para WhatsApp' className={button} />
       </a> */}
-      <button onClick={() => setOpacity('')}>
+      <button onClick={() => setOpacity('fixed flex flex-col gap-y-2')}>
         <img src={whatsappButton} alt='Botão de contato para WhatsApp' className={button} />
       </button>
     </>
