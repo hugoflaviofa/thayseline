@@ -3,7 +3,7 @@ import imagePerfil from '../images/thaysEline_perfil.jpg';
 
 export default function Perfil() {
   return (
-    <div className='flex flex-col items-center'>
+    <div id='perfil' className='flex flex-col items-center'>
         <img src={imagePerfil} className='mt-20 w-56 md:w-80 rounded-full' alt="Thays Eline" />
         <p className='m-4 animate-fade-in-down'>
           Personal <b>Thays Eline</b>
