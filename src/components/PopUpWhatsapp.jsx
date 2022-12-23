@@ -9,12 +9,12 @@ export default function PopUpWhatsapp(props) {
 
   return (
     <div
-      className={`fixed bottom-1/3 bg-gray-600 p-8 rounded-lg flex flex-col gap-y-2 shadow-2xl opacity-${String(props.hidden)} duration-500`}
+      className={`fixed bottom-1/3 bg-gray-600 p-8 rounded-lg ${props.hidden} shadow-2xl duration-500`}
     >
       <button
         type="button"
         className="absolute -top-5 right-0 w-10 self-end bg-white rounded-full p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
-        onClick={() => props.setOpacity(0)}
+        onClick={() => props.setOpacity('hidden')}
       >
         <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
