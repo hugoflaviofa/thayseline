@@ -15,11 +15,11 @@ export default function WhatsappButton() {
   
   return (
     <>
-      <PopUpWhatsapp hidden={opacity} setOpacity={setOpacity}/>
+      <PopUpWhatsapp opacity={opacity} setOpacity={setOpacity}/>
       {/* <a href='https://wa.me/5511996887972?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20treino%20personalizado.' target='blank'>
         <img src={whatsappButton} alt='Botão de contato para WhatsApp' className={button} />
       </a> */}
-      <button onClick={() => setOpacity(' teste2')}>
+      <button onClick={() => setOpacity('add-pop-up-visible')}>
         <img src={whatsappButton} alt='Botão de contato para WhatsApp' className={button} />
       </button>
     </>

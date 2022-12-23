@@ -1,4 +1,4 @@
-.teste {
+.pop-up-hidden {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -9,8 +9,11 @@
   border-radius: 0.5rem;
   opacity: 0;
   transition-duration: 300ms;
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.teste2 {
+.add-pop-up-visible {
   opacity: 100;
 }
