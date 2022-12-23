@@ -9,7 +9,7 @@ export default function PopUpWhatsapp(props) {
 
   return (
     <div
-      className={`fixed bottom-1/3 bg-gray-600 p-8 rounded-lg flex flex-col gap-y-2 shadow-2xl opacity-${props.hidden} duration-500`}
+      className={`fixed bottom-1/3 bg-gray-600 p-8 rounded-lg flex flex-col gap-y-2 shadow-2xl opacity-${String(props.hidden)} duration-500`}
     >
       <button
         type="button"
@@ -23,7 +23,7 @@ export default function PopUpWhatsapp(props) {
       <p
         className='text-left'
       >
-        Qual o seu Nome?
+        Como gostaria de ser chamado?
       </p>
       <input
         className='text-black rounded-sm h-10 pl-3 shadow-2xl'
