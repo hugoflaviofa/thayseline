@@ -8,7 +8,7 @@ export default function TrackFiedl() {
       <img id='teste' className='w-5/6 md:w-3/6 rounded-xl' src={trackFiedl} alt="Foto Tracke & Field" />
       <button>
         <a
-          className='bg-sky-600 hover:bg-sky-700 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline'
+          className='bg-sky-600 hover:bg-sky-700 duration-300 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline'
           href='https://compre.vc/v2/355efd4b351'
           target='blank'
         >
