@@ -1,0 +1,16 @@
+.teste {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  bottom: 33.333333%;
+  background-color: rgb(75 85 99);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition-duration: 300ms;
+}
+
+.teste2 {
+  opacity: 100;
+}
