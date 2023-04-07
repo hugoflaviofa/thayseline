@@ -1,5 +1,5 @@
 import React from 'react'
-import trackFiedl from '../images/SouUmTrainner_Thays_Silva.png'
+import trackFiedl from '../images/SouUmTrainner_Thays_Silva.webp'
 
 export default function TrackFiedl() {
   

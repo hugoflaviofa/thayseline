@@ -1,5 +1,5 @@
 import React from 'react'
-import imagePerfil from '../images/thaysEline_perfil.jpg';
+import imagePerfil from '../images/thaysEline_perfil.webp';
 
 export default function Perfil() {
   return (
