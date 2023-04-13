@@ -6,6 +6,7 @@ import WhatsappButton from './components/WhatsappButton';
 import NavBar from './components/NavBar';
 import TrackFiedl from './components/TrackFiedl';
 import Perfil from './components/Perfil';
+import Footer from './components/Footer';
 // import PopUpWhatsapp from './components/PopUpWhatsapp';
 // import Contacts from './components/Contacts';
 
@@ -22,6 +23,7 @@ function App() {
         <WhatsappButton />
         {/* <PopUpWhatsapp /> */}
         <TrackFiedl />
+        <Footer />
       </header>
     </div>
   );
