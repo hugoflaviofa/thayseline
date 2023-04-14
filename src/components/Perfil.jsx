@@ -13,7 +13,7 @@ export default function Perfil() {
         Personal <b>Thays Eline</b>
       </p>
       <p className="mt-4 text-slate-300 mx-5 animate-fade-in-down">
-        Formada Em Educação Física
+        Formada em Educação Física
       </p>
       <p className="text-slate-300 mx-5 animate-fade-in-down">
         Pós-graduanda em Treinamento Feminino e Reabilitação de Lesões
